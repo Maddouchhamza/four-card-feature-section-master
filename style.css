@@ -1,1 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400;500;600;700&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;500;600;700&family=Lexend+Deca:wght@100;200;300;400&family=Outfit:wght@100;300;400;600&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800;900&family=Red+Hat+Display:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap');
+body{
+    height: 210vh;
+    width: 360px;
+    background-color: hsl(0, 0%, 98%);
+    font-family: "Poppins", sans-serif;
+    padding-top: 4rem;
+}
+header{
+    text-align: center;
+}
+.title{
+    color: hsl(240, 2%, 58%);
+    font-weight: 200;
+    font-size: 25px;
+
+}
+.powered-by{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 25px;
+}
+p{
+    color: hsl(229, 6%, 66%);
+    font-weight: 300;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 310px;
+    grid-template-rows: 240px 240px 240px 240px;
+    gap: 30px 0px;
+    justify-content: center;
+    margin-top: 4.5rem;
+}
+section{
+    background-color: white;
+    box-shadow: 0px 10px 20px 1px rgb(200, 201, 202);
+    border-radius: 5px 5px 7px 7px;
+    border-top: solid 3px;
+    color: hsl(229, 6%, 66%);
+    font-size: 13px;
+    line-height: 27px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+}
+span{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 19px;
+}
+section img{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+section:first-child{
+    border-top-color: hsl(180, 62%, 55%);
+}
+section:nth-child(2){
+    border-top-color: hsl(0, 78%, 62%);
+}
+section:nth-child(3){
+    border-top-color: hsl(34, 97%, 64%);
+}
+section:last-child{
+    border-top-color: hsl(212, 86%, 64%);
+}
+
+footer{
+    position: relative;
+}
+.attribution{ 
+    position: absolute;
+    top: 70px;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
